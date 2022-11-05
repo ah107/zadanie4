@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Kajetan"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-11-05 07:20:31 PM"/>
+        <attribute name="created" value="S2FqZXRhbjtERVNLVE9QLTVHVEJJQlU7MjAyMi0xMC0zMDswNDowMjoyMiBQTTszMDQ3"/>
+        <attribute name="edited" value="S2FqZXRhbjtERVNLVE9QLTVHVEJJQlU7MjAyMi0xMC0zMDswNDoxOToxMSBQTTsxOzMxNjE="/>
+        <attribute name="edited" value="YWhhYnI7REVTS1RPUC1MMTBRODlCOzIwMjItMTEtMDU7MDc6MjA6MzEgUE07MjsyOTA1"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="X, N, N1, i, S" type="Integer" array="False" size=""/>
+            <input variable="X"/>
+            <comment text="X-ilo&#347;&#263; bajt&#243;w"/>
+            <input variable="N"/>
+            <comment text="N-ilo&#347;&#263; miesi&#281;cy"/>
+            <assign variable="N1" expression="0"/>
+            <for variable="i" start="1" end="N" direction="inc" step="1">
+                <input variable="S"/>
+                <assign variable="N1" expression="N1+(10-S)"/>
+            </for>
+            <output expression="N1 + 10" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
